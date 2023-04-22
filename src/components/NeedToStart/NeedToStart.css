@@ -1,0 +1,57 @@
+.need-to-start-main-container {
+    position: relative;
+}
+
+.program-container {
+    border-bottom: 1px solid rgb(233, 47, 115);
+    border-top: 1px solid rgb(233, 47, 115);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 10vw;
+    margin-top: 20vw;
+    margin-bottom: 10vw;
+}
+
+.text-program {
+    font-size: 2vw;
+    font-weight: 600;
+}
+
+.items-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.item-block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.digit {
+    opacity: 0.5;
+    font-size: 4vw;
+    font-weight: 900;
+}
+
+.text-paragraph {
+    margin-left: 15px;
+    font-size: 1.6vw;
+    font-weight: 400;
+}
+
+.spot-program-1 {
+    position: absolute;
+    left: 75vw;
+    opacity: 0.7;
+}
+
+.spot-program-2 {
+    position: absolute;
+    top: 0vw;
+    left: -15vw;
+    opacity: 0.7;
+}

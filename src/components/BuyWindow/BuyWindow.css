@@ -1,0 +1,81 @@
+.main-buywindow-container {
+  background-color: transparent;
+  backdrop-filter: blur(20px);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 11;
+  max-width: 100%;
+}
+
+.window-container {
+    border: 2px solid rgb(233, 47, 115);
+    border-radius: 5px  ;
+    padding: 2vw;
+}
+
+.close-img {
+    width: 5vw; 
+    cursor: pointer;
+}
+
+.image-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.input-text {
+    width: 35vw;
+    height: 3vw;
+    margin-bottom: 2vw;
+}
+
+.buy-text {
+    font-size: 3.2vw;
+    font-weight: 600;
+    color: rgb(233, 47, 115);
+    margin-bottom: 4vw;
+}
+
+.buycourse-text-container {
+    display: flex;
+    justify-content: center;
+}
+
+.text-field_floating {
+    position: relative;
+  }
+  .text-field_floating .text-field__input {
+    line-height: 1.25;
+    padding: 1rem 0.75rem;
+    width: 40vw;
+    margin-bottom: 2vw;
+  }
+  .text-field_floating .text-field__label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    font-size: 10px;
+    padding: 1rem .75rem;
+    pointer-events: none;
+    border: 1px solid transparent;
+    transform-origin: 0 0;
+    transition: opacity .15s ease-in-out, transform .15s ease-in-out;
+  }
+
+  .text-field_floating .text-field__input:focus,
+  .text-field_floating .text-field__input:not(:placeholder-shown) {
+    padding-top: 1.2rem;
+    padding-bottom: .625rem;
+    height: 0vw;
+  }
+  .text-field_floating .text-field__input:focus~.text-field__label,
+  .text-field_floating .text-field__input:not(:placeholder-shown)~.text-field__label {
+    opacity: .65;
+    transform: scale(.85) translateY(-.75rem) translateX(.15rem);
+  }
+
+  

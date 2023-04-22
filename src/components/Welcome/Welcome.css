@@ -1,0 +1,81 @@
+.about-me {
+    font-size: 2vw;
+    font-weight: 600;
+}
+
+.about-course {
+    font-size: 2vw;
+    font-weight: 600;
+}
+
+.spot-1 {
+    position: absolute;
+    height: 120vw;
+    left: -40%;
+    top: -50%;
+    z-index: 1;
+}
+
+.spot-2 {
+    position: absolute;
+    left: 50%;
+    top: -50%;
+    z-index: -1;
+    height: 120vw;
+
+}
+
+.money-spot {
+    position: absolute;
+    left: 70%;
+    top: -20%;
+    z-index: -1;
+}
+
+.money-spot-2 {
+    height: 40vw;
+    position: absolute;
+    left: 40vw;
+    top: 20%;
+    z-index: -1;
+    height: 40vw;
+}
+
+.main-welcome-container{
+    position: relative;
+    top: 50px;
+    left: 10%;
+    display: flex;
+    flex-direction: row;
+}
+
+.container-about {
+    display: flex;
+    flex-direction: column;
+}
+
+.nomoney-img {
+    margin-bottom: 0;
+    height: 10vw;
+}
+
+.girl-img {
+    margin-bottom: 0;
+    height: 65vw;
+    margin-right: 10vw;
+}
+
+.spot-money-img {
+    max-height: 100%;
+    max-width: 100%;
+    opacity: 0.5;
+}
+
+.spot-img {
+    position: relative;
+    max-height: 100%;
+    width: 65vw;
+    opacity: 0.5;
+    z-index: 0;
+}
+

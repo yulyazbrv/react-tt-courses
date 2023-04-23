@@ -79,3 +79,7 @@
     z-index: 0;
 }
 
+.line-through {
+    text-decoration: line-through;
+    text-decoration-color: rgb(233, 47, 115);
+}

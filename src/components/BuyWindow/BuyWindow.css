@@ -58,8 +58,8 @@
     top: 0;
     left: 0;
     height: 100%;
-    font-size: 10px;
-    padding: 1rem .75rem;
+    font-size: 13px;
+    padding: 0.89rem .5rem;
     pointer-events: none;
     border: 1px solid transparent;
     transform-origin: 0 0;

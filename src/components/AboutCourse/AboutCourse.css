@@ -32,11 +32,13 @@
     justify-content: center;
     position: relative;
     z-index: 2;
+    flex-wrap: wrap;
+
 }
 
 .present-img {
     margin-right: 5px;
-    height: 40vw;
+    height: 58vw;
     z-index: 10;
 }
 

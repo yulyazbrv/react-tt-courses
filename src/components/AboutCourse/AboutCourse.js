@@ -14,7 +14,7 @@ const AboutCourse = () => {
             <div className="stream-going-container">
                 <p className="text-stream-going"><span className="highlighting">КАЖДЫЙ МОЙ СТРИМ</span> ПРОХОДИТ ТАК</p>
             </div>
-            <div style={{display: "flex", justifyContent: "center"}}>
+            <div style={{display: "flex", flexWrap: "wrap", justifyContent: "center"}}>
                 <div className="stream-images-container">
                     <div>
                         <img alt="" className="present-img" src={firstPres} style={{marginLeft: "5px"}}></img>

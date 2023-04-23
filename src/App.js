@@ -19,7 +19,7 @@ function App() {
   }
 
   return(
-    <div>
+    <div style={{overflowX: "clip"}}>
       <Welcome closeBuyWindow={closeBuyWindow} showWindow={showWindow} showBuyWindow={showBuyWindow}></Welcome>
       <AboutCourse></AboutCourse>
       <Pluses></Pluses>

@@ -1,11 +1,15 @@
 body {
   margin: 0;
   background-image: url(background.png);
-  overflow-x: hidden;
+  box-sizing: border-box;
+  max-width: 100%;
+
 }
 
 html {
   overflow-x: hidden;
+  overflow-y: auto;
+  max-width: 100%;
 }
 
 p {
@@ -27,11 +31,11 @@ div {
 }
 
 button {
-  height: 7vw;
-  width: 20vw;
+  height: 10vw;
+  width: 35vw;
   background-color: rgb(66, 167, 230);
   color: white;
-  font-size: 2vw;
+  font-size: 3.5vw;
   border-radius: 15px;
   font-weight: 600;
   cursor: pointer;

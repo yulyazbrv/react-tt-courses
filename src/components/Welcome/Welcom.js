@@ -21,7 +21,14 @@ const Welcome = (props) => {
                     <img alt="" className="nomoney-img" src={noMoney}></img>
                 </div>
                 <div style={{cursor: "pointer"}}>
-                    <button onClick={showBuyWindow}>Купить курс<br/>ЗА <span className="line-through">340$</span> <span className="highlighting">170$</span></button>
+                    <button onClick={showBuyWindow}>Купить курс
+                     <br/>ЗА 
+                     <span className="line-through"> 990Br </span>
+                     <span className="highlighting">495Br</span>
+                     <br/>
+                     <span className="line-through" style={{fontSize: "2.5vw"}}>340$ </span>
+                     <span className="highlighting" style={{fontSize: "2.5vw"}}>170$ </span>
+                    </button>
                 </div>
                 {showWindow && <BuyWindow closeBuyWindow={closeBuyWindow}></BuyWindow>}
                 <div className="spot-1">

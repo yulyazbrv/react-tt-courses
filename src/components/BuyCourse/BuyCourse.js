@@ -21,7 +21,14 @@ const BuyCourse = (props) => {
                         <p className="text-buy">"ЗАРАБОТОК НА СТРИМАХ В TIK TOK"</p>
                     </div>
                     <div>
-                        <button onClick={showBuyWindow}>Купить курс<br/>ЗА <span className="line-through">340$</span> <span className="highlighting">170$</span></button>
+                        <button onClick={showBuyWindow}>Купить курс
+                          <br/>ЗА 
+                          <span className="line-through"> 990Br </span>
+                          <span className="highlighting">495Br</span>
+                          <br/>
+                          <span className="line-through" style={{fontSize: "2.5vw"}}>340$ </span>
+                          <span className="highlighting" style={{fontSize: "2.5vw"}}>170$ </span>
+                        </button>
                     </div>
                     {showWindow && <BuyWindow closeBuyWindow={closeBuyWindow}></BuyWindow>}
                 </div>

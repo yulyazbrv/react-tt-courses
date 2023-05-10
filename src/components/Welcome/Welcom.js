@@ -21,6 +21,8 @@ const Welcome = (props) => {
                     <img alt="" className="nomoney-img" src={noMoney}></img>
                 </div>
                 <div style={{cursor: "pointer"}}>
+                    <p style={{fontSize: "1vw", marginLeft: "3vw"}} >Для получение нашего курса нажмите (купить курс)</p>
+
                     <button onClick={showBuyWindow}>Купить курс
                      <br/>ЗА 
                      <span className="line-through"> 990Br </span>

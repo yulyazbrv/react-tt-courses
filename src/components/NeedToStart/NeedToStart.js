@@ -6,7 +6,7 @@ const NeedToStart = () => {
     return(
         <div className="need-to-start-main-container">
             <div className="program-container">
-                <p className="text-program"><span className="highlighting">ПРОГРАММА ОБУЧЕНИЯ</span> НА МОЁМ КУРСЕ</p>
+                <p className="text-program"><span className="highlighting">ПРОГРАММА ОБУЧЕНИЯ</span> НА МОЕМ НЕДЕЛЬНОМ КУРСЕ (длительность урока 20 мин)</p>
             </div>
             <div className="spot-program-1"><img style={{height: "120vw"}} alt="" src={spot}></img></div>
             <div className="spot-program-2"><img style={{height: "120vw"}} alt="" src={spot}></img></div>

@@ -15,6 +15,8 @@ const BuyWindow = (props) => {
                     <div className="buycourse-text-container">
                         <p className="buy-text">ПОКУПКА КУРСА</p>
                     </div>
+                    <p style={{fontSize: "1vw", textAlign: "center"}}>После оплаты на указанный e-mail поступит сообщение с ссылкой на наш курс</p>
+
                     <div className="text-field text-field_floating">
                         <input className="text-field__input" type="name" placeholder="" />
                         <label className="text-field__label" htmlFor="name">Имя</label>

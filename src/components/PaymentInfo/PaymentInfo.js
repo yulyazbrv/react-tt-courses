@@ -1,10 +1,9 @@
 import React from "react";
 import payment from "./images/paymentnew.jpg";
 import "./PaymentInfo.css";
-import { Link, Route, Routes } from "react-router-dom";
-import Policy from "../Policy/Policy";
 
-const PaymentInfo = () => {
+const PaymentInfo = (props) => {
+  const { setIsShowPolicy } = props;
   return (
     <div className="main-payment-container">
       <div className="about-IP-container">
@@ -31,14 +30,15 @@ const PaymentInfo = () => {
           e-mail: dsgdfgdsfgdsf231@mail.ru Режим работы: онлайн-заказ:
           круглосуточно, оператор: 10.00-20.00 Пн-Вс.
           <br />
-          <Link style={{ opacity: "1" }} className="link" to="/policy">
+          <div
+            onClick={() => setIsShowPolicy(true)}
+            style={{ opacity: "1" }}
+            className="link"
+          >
             Информация об оплате
-          </Link>
+          </div>
         </p>
       </div>
-      <Routes>
-        <Route path="/policy" element={<Policy />}></Route>
-      </Routes>
       <div>
         <img className="payment-img" alt="" src={payment}></img>
       </div>

@@ -17,4 +17,5 @@
 .link {
   font-size: 1.2vw;
   color: rgb(255, 101, 165);
+  cursor: pointer;
 }

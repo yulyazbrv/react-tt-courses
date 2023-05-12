@@ -7,9 +7,11 @@ import NeedToStart from "./components/NeedToStart/NeedToStart";
 import Reviews from "./components/Reviews/Reviews";
 import BuyCourse from "./components/BuyCourse/BuyCourse";
 import PaymentInfo from "./components/PaymentInfo/PaymentInfo";
+import Policy from "./components/Policy/Policy";
 
 function App() {
   const [showWindow, setShowWindow] = useState(false);
+  const [isShowPolicy, setIsShowPolicy] = useState(false);
   const showBuyWindow = () => {
     setShowWindow(true);
   };
@@ -35,7 +37,8 @@ function App() {
         showBuyWindow={showBuyWindow}
       ></BuyCourse>
 
-      <PaymentInfo></PaymentInfo>
+      <PaymentInfo setIsShowPolicy={setIsShowPolicy}></PaymentInfo>
+      {isShowPolicy && <Policy setIsShowPolicy={setIsShowPolicy} />}
     </div>
   );
 }

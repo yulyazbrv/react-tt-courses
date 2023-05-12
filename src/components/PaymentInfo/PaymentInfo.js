@@ -1,6 +1,8 @@
 import React from "react";
 import payment from "./images/paymentnew.jpg";
 import "./PaymentInfo.css";
+import { Link, Route, Routes } from "react-router-dom";
+import Policy from "../Policy/Policy";
 
 const PaymentInfo = () => {
   return (
@@ -28,8 +30,15 @@ const PaymentInfo = () => {
           <br />
           e-mail: dsgdfgdsfgdsf231@mail.ru Режим работы: онлайн-заказ:
           круглосуточно, оператор: 10.00-20.00 Пн-Вс.
+          <br />
+          <Link style={{ opacity: "1" }} className="link" to="/policy">
+            Информация об оплате
+          </Link>
         </p>
       </div>
+      <Routes>
+        <Route path="/policy" element={<Policy />}></Route>
+      </Routes>
       <div>
         <img className="payment-img" alt="" src={payment}></img>
       </div>
